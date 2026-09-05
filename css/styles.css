@@ -20,7 +20,7 @@ ul {
     padding: 0;
 }
 
-h1 , p {
+h1 , h2 , p {
     margin: 0;
 }
 
@@ -94,10 +94,42 @@ nav li {
 
 
 .hero-card time {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 
+/* Blog Section */
+
+.blog-section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.blog-container {
+    padding: 2em 1.5em;
+}
+
+.blog-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+    display: block;
+}
+
+.blog-container time {
+    display: inline-block;
+    font-size: 0.875rem;
+    margin-top: 1.25em;
+}
+
+.blog-container h2 {
+    margin-top: 0.3em;
+}
+
+.blog-container p {
+    margin-top: 0.5em;
+    color: #505050;
+}
 
 
 
