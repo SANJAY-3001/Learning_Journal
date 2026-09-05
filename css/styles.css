@@ -132,6 +132,28 @@ nav li {
 }
 
 
+/* footer */
+
+footer {
+    background-color: #202020;
+    text-align: center;
+    padding: 2em 0;
+}
+
+
+.footer-text , .copyright {
+    font-size: 0.75rem;
+}
+
+.footer-text {
+    font-weight: 700;
+    color: #ECECEC;
+}
+
+.copyright {
+    color: #D7D7D7;
+}
+
 
 
 @media (min-width : 480px) {
